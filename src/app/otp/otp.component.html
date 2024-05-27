@@ -1,0 +1,57 @@
+<body style="width: 100%; height: 100vh; object-fit: cover; position: fixed;">
+
+  <!----------------------- Main Container -------------------------->
+
+  <!-- <div class="container d-flex justify-content-center align-items-center vh-100%"> -->
+
+  <!----------------------- Login Container -------------------------->
+
+  <div class="row  bg-maroon mr-0" style="height: 100vh">
+
+    <!--------------------------- Left Box ----------------------------->
+
+    <div class="col-md-6  d-flex  flex-column left-box ">
+
+      <img src="assets/My Templetes/HTMLS/images/insurance-image (1).jpg" class="img-fluid "
+        style="width:100%; height:100%; object-fit: cover;">
+
+
+
+
+
+    </div>
+
+    <!-------------------- ------ Right Box ---------------------------->
+
+    <div class="col-md-4 rounded-4 d-flex justify-content-center align-items-center flex-column
+          right-box" style="background: white; width: 100%;">
+      <div class="row align-items-center">
+        <div class="header-text mb-4">
+          <img src="assets/My Templetes/HTMLS/images/equity.jpg" alt="">
+           
+          <h2 class="verify">OTP Verification</h2>
+          <p> Please check your mobile number or email and enter the OTP below.</p>
+        </div>
+
+        <div id="remaining-time" class="font-weight-bold mb-3">
+          Time Remaining: <span id="time">01:00</span>
+        </div>
+        <input type="text" id="otp-input" class="form-control mb-3" placeholder="Enter OTP">
+        <button (click)="verifyOtp()" class="btn btn-primary btn-block mb-3">Verify OTP</button>
+        <button class="btn btn-secondary btn-block mb-3">Resend OTP</button>
+        <button class="btn btn-warning btn-block mb-3">Back</button>
+         
+      
+      </div>
+    </div>
+
+
+  </div>
+   
+
+</body>
+
+
+
+
+

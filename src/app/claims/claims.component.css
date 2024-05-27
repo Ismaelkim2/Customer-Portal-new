@@ -1,0 +1,62 @@
+.main_conatiner{
+    background-color: grey;
+  }
+  .table-form{
+  
+      top: 200px;
+      width: 900px;
+      border-radius: 12px;
+      margin-left: 30%;
+      height: 100px;
+     
+  }
+  .make{
+    margin-top: 90px;
+    width: 900px;
+    margin-left: 30%;
+    top: 20px;
+    display: flex;
+    height: 100px;
+    background-color: rgb(177, 78, 78);
+    border-radius: 12px;
+    
+  }
+  
+  .claims{
+    width: 120px;
+    margin-left: 40px;
+    padding-top: -5px;
+    height: 20px;
+    margin-top: 18px;
+    /* background-color: white; */
+  }
+  
+  h2{
+    font-size: 18px;
+    font-weight: bold;
+    
+  }
+  
+    .table {
+      background-color: white;
+    }
+  
+    .table thead th {
+      background-color: white;
+      color: blue;
+      height: 10px;
+    }
+  
+    .custom-table {
+     width: 100%;
+  
+  }
+    .search-input-group {
+      max-width: 140px;
+      margin-left: 755px;
+      top: 0;
+    }
+    .search-icon {
+      cursor: pointer;
+    }
+  

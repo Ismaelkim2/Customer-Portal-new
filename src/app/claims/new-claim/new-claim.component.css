@@ -1,0 +1,44 @@
+.container {
+    width: 900px; /* Adjust the width as needed */
+    margin-top: 85px;
+    padding-top: 20px;
+    background-color: none;
+    background-color: rgb(226, 223, 223);
+    height: 690px;
+    border-radius: 12px;
+    margin-left:350PX;
+    height:580px ;
+    margin-bottom: 65px ;
+  
+    
+  }
+  form{
+    background-color: white;
+    font-weight:bold;
+    width: 800px;
+    justify-content: center;
+    margin-left: 56px;
+    border-radius: 12px;
+    height:auto ;
+    margin-bottom: 35px;
+   
+    
+}
+
+input{
+  width: 250px;
+  margin-left: 30px;
+  border-radius: 12px;
+}
+
+label{
+  margin-left: 30px;
+}
+textarea{
+  width: 400px;
+  margin-left: 30px;
+  border-radius: 12px;
+}
+.GEN{
+  display: flex;
+}

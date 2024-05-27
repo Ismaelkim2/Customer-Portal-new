@@ -1,0 +1,81 @@
+ 
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: maroon;
+    margin: 0;
+    padding: 0;
+    
+    height: 100vh; /* Full viewport height */
+    width: 100vw; /* Full viewport width */
+     
+
+}
+
+ 
+
+ 
+
+/*------------ Login container ------------*/
+
+.box-area{
+    width: 100%;
+    margin-left: 0px;
+    margin-bottom: 20px;
+}
+
+/*------------ Right box ------------*/
+
+.right-box{
+    padding: 40px 30px 40px 40px;
+    margin-top: 10px;
+    margin-bottom: 150px;
+    margin-left: 150px;
+    
+}
+
+/*------------ Right box ------------*/
+.left-box{
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 0px;
+    
+     
+}
+
+/*------------ Custom Placeholder ------------*/
+
+::placeholder{
+    font-size: 16px;
+}
+
+/* .rounded-4{
+    border-radius: 20px;
+}
+.rounded-5{
+    border-radius: 30px;
+} */
+
+
+/*------------ For small screens------------*/
+
+@media only screen and (max-width: 768px){
+
+     .box-area{
+        margin: 0 10px;
+
+     }
+     .left-box{
+        height: 100px;
+        overflow: hidden;
+     }
+     .right-box{
+        padding: 20px;
+     }
+
+}
+
+
+

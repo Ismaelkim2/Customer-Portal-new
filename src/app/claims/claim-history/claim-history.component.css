@@ -1,0 +1,82 @@
+
+.container{
+  background-color: rgb(230, 223, 223);
+  height: 500px;
+  width: 900px;
+  border-radius: 12px;
+  margin-top: 100px;
+  margin-left: 250px;
+    }
+    
+body {
+  font-family: Arial, sans-serif;
+  background-color: grey;
+  color: white;
+}
+
+.table {
+  width: 80%;
+  border-collapse: collapse;
+  padding-top: 20px;
+  margin-left: 10%;
+  border-radius: 12px;
+  
+}
+
+.topclass{
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: white;
+  color: black;
+}
+
+tbody {
+  background-color: white;
+}
+
+button {
+  color: rgb(202, 55, 55);
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-bottom: 70px;
+  padding: 20px 50px;
+  float:right;
+  margin-right: 75px; 
+}
+
+hr{
+  background-color:#a32a29 ;
+  height: 2px;
+}
+
+button:hover {
+  background-color: #f8e3e3;
+}
+
+  #new-claim-btn{
+    height: auto;
+    float:right;
+  }  
+  .btn1{
+  border-bottom: 10px;
+  border-radius: 10px;
+  margin-top: 65px;
+  width: 100px;
+  }
+
+  h2{
+    margin-left: 45%;
+    width:200px;
+    
+  }

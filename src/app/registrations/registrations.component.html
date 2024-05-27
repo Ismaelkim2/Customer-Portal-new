@@ -1,0 +1,59 @@
+ 
+
+<div class="container-fluid" style="padding-top: 0;margin-left: 0;">
+
+    <div class="col-md-6  ml-0">
+      <div class="card shadow" style="margin-left: 400px;" >
+        <div class="card-body" style="background-color:rgb(223, 216, 216);margin-left: 0px;">
+          <h2 class="text mb-4" style="margin-left: 80px;font-weight: bold;color:#a32a29;font-size: 25px;">Registration Form:</h2>
+
+          <form (ngSubmit)="onSubmit()"  class="needs-validation" novalidate>
+
+            <div class="mb-0">
+              <label for="firstName" class="form-label">First Name:</label>
+              <input type="text" class="form-control" id="firstName" name="firstName" [(ngModel)]="formData.firstName" required>
+              <div class="invalid-feedback">
+                Please enter your first name.
+              </div>
+            </div>
+
+            <div class="mb-0 ">
+              <label for="lastName" class="form-label">Last Name:</label>
+              <input type="text" class="form-control" id="lastName" name="lastName" [(ngModel)]="formData.lastName" required>
+              <div class="invalid-feedback">
+                Please enter your last name.
+              </div>
+            </div>
+
+            <div class="mb-0">
+              <label for="phoneNumber" class="form-label">Phone Number:</label>
+              <input type="tel" class="form-control" id="phoneNumber" name="phoneNumber" [(ngModel)]="formData.phoneNumber" required>
+              <div class="invalid-feedback">
+                Please enter a valid phone number.
+              </div>
+            </div>
+
+            <div class="mb-0">
+              <label for="password" class="form-label">Password:</label>
+              <input type="password" class="form-control" id="password" name="password" [(ngModel)]="formData.password" required>
+              <div class="invalid-feedback">
+                Please enter a password.
+              </div>
+            </div>
+            <div class="mb-3 form-check" style="margin-left: 100px;">
+              <input type="checkbox" class="form-check-input" id="above18" name="above18" [(ngModel)]="formData.above18" required style="width: 15px;">
+              <label class="form-check-label" for="above18" style="margin-left: 0px;">Verified?</label>
+              <div class="invalid-feedback">
+                Validity
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block" style="margin-left: 100px;width: 100px;">Register</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  <!-- </div> -->
+</div>
+
+
+
